@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "vexvisuals",
+  "version": "${version}",
+  "name": "VexVisuals",
+  "description": "Visual client mod: HUD, visuals, ClickGUI (Right Shift).",
+  "authors": ["VexVisuals"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.vexvisuals.VexVisualsClient"]
+  },
+  "mixins": ["vexvisuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
